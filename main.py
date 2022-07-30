@@ -1,2 +1,6 @@
-if __name__ is "__main__":
+from reverse import reverse
+
+if __name__ == "__main__":
     animals = ["Horse", "Dog", "Cat", "Panda", "Snake"]
+
+    print(reverse(animals))
